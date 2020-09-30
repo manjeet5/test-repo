@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js --watch",
     "dev": "BABEL_ENV=development NODE_ENV=development node --max-old-space-size=16384 server.js"
   },
