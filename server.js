@@ -9,6 +9,7 @@ function runServer(webpackConfig) {
         publicPath: webpackConfig.output.publicPath,
         hot: true,
         port: 7000,
+        host: '0.0.0.0',
         inline: true,
         stats: {
             colors: true,
